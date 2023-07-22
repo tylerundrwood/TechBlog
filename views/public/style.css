@@ -1,0 +1,9 @@
+:root {
+    --primary: #c0cfc6;
+    --secondary: rgb(68, 133, 138);
+    --border-radius: .3rem;
+}
+
+* {
+    box-sizing: border-box;
+}
