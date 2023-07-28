@@ -149,7 +149,7 @@ span.user-id  {
 }
 
 p.post-body {
-    color: #ccc;
+    color: #0f0e0e;
 }
 
 .new-post-form input #post-body{
@@ -174,7 +174,7 @@ p.post-body {
     font-size: 90%;
     margin-bottom: .5%;
     font-style: italic;
-    color: #7d7d7d;
+    color: #242222;
 }
   
 .new-post-form input {
