@@ -24,5 +24,7 @@ https://getbootstrap.com/
 ## Credits
 
 https://www.youtube.com/watch?v=NaUHlG-Q0vg
+
 https://handlebarsjs.com/guide/#html-escaping
+
 https://getbootstrap.com/
