@@ -60,13 +60,13 @@ post-list {
 textarea, input {
     padding: .5%;
     border-radius: 5px;
-    border: 1px solid #e9c46a;
+    border: 1px solid #82536b;
     font-family: Arial, Helvetica, sans-serif;
 }
   
 textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #e9c46a;
+    border: 1px solid #82536b;
 }
   
 textarea {
@@ -114,9 +114,81 @@ main {
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #e9c46a;
+    color: #82536b;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
     margin-left: 16px;
+}
+.btn-no-style:hover {
+    background: none;
+    color: #e76f51;
+}
+  
+.delete-post-btn {
+    background-color: #d41414;
+}
+
+.delete-comment-btn {
+    background-color: #d41414;
+}
+
+span.user-id  {
+    color: #e9c46a;
+}
+
+.post {
+    margin-bottom: 2%;
+    line-height: 120%;
+}
+
+.post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7d7d7d;
+}
+
+p.post-body {
+    color: #ccc;
+}
+
+.new-post-form input #post-body{
+    width: 300px;
+}
+.edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+}
+  
+.comment-form {
+    margin-bottom: 5%;
+}
+  
+.comment {
+    padding: 1%;
+    margin-bottom: 1%;
+    border-top: 1px solid #ccc;
+}
+  
+.comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    font-style: italic;
+    color: #7d7d7d;
+}
+  
+.new-post-form input {
+    width: 300px;
+}
+  
+.edit-post-form {
+    margin-bottom: 5%;
+}
+  
+footer {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
 }
